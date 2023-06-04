@@ -18,7 +18,7 @@ better choice for anything that requires a high degree of randomness, such as cr
 faster than rand(), as it is a hardware instruction, and does not require any function calls or any calculations
 to produce a number, and such, can be done in a single CPU cycle.
 
-The program will run a loop 100 times, and each time it will generate a random number using rand() and RDRAND, and
+The program will run a loop 1,000,000 times, and each time it will generate a random number using rand() and RDRAND, and
 will print the results, and the time it took to generate the number. The program will also print the average time
 it took to generate a number using rand() and RDRAND.
 
